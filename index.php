@@ -20,7 +20,11 @@ $versao = filemtime(__DIR__ . '/css/styles.css') . filemtime(__DIR__ . '/js/scri
         <meta property="og:url" content="https://www.josearnaldo.net/" />
         <meta property="og:title" content="José Arnaldo | Desenvolvedor Web Full-stack" />
         <meta property="og:description" content="Sites, CRMs, áreas de cliente e aplicativos. PHP, Laravel, JavaScript, MySQL e Flutter." />
-        <meta property="og:image" content="https://www.josearnaldo.net/imagens/sites/beg/beg-cliente.jpg" />
+        <meta property="og:image" content="https://www.josearnaldo.net/imagens/fundo.png" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="1596" />
+        <meta property="og:image:height" content="792" />
+        <meta property="og:image:alt" content="josearnaldo.net" />
         <meta name="twitter:card" content="summary_large_image" />
         <!-- Fonts and icons -->
         <script src="https://kit.fontawesome.com/c3247fde6d.js" crossorigin="anonymous"></script>
