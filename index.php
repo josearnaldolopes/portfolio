@@ -333,6 +333,7 @@ $versao = filemtime(__DIR__ . '/css/styles.css') . filemtime(__DIR__ . '/js/scri
                                                     <li><a href="javascript:void(0)" data-weight="3">Laravel</a></li>
                           <li><a href="javascript:void(0)" data-weight="6">Python</a></li>
                           <li><a href="javascript:void(0)" data-weight="7">Node.js</a></li>
+                          <li><a href="javascript:void(0)" data-weight="4">NestJS</a></li>
                           <li><a href="javascript:void(0)" data-weight="7">Java</a></li>
                           <li><a href="javascript:void(0)" data-weight="7">Dart</a></li>
                           <li><a href="javascript:void(0)" data-weight="3">SQL</a></li>
