@@ -29,9 +29,24 @@ $versao = filemtime(__DIR__ . '/css/styles.css') . filemtime(__DIR__ . '/js/scri
         <!-- Fonts and icons -->
         <script src="https://kit.fontawesome.com/c3247fde6d.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
-        <link href="https://use.fontawesome.com/releases/v6.2.0/css/all.css" rel="stylesheet">
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css?v=<?php echo $versao; ?>" rel="stylesheet" />
+        <!-- Dados estruturados (ajuda o Google a entender quem é a página) -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "José Arnaldo",
+            "url": "https://www.josearnaldo.net/",
+            "jobTitle": "Desenvolvedor Web Full-stack",
+            "email": "mailto:jose@josearnaldo.net",
+            "sameAs": [
+                "https://www.linkedin.com/in/josearnaldolopes/",
+                "https://github.com/josearnaldolopes"
+            ],
+            "knowsAbout": ["PHP", "Laravel", "JavaScript", "MySQL", "Flutter", "HTML", "CSS"]
+        }
+        </script>
     </head>
     <body id="top">
         <!-- Navigation-->
@@ -100,7 +115,7 @@ $versao = filemtime(__DIR__ . '/css/styles.css') . filemtime(__DIR__ . '/js/scri
                             <div class="row">
                                 <div class="col-md-4 mb-4">
                                      <div class="card">
-                                      <img class="card-img-top" src="imagens/sites/beg/beg-cliente.jpg" alt="Área de cliente B&G Soluções">
+                                      <img class="card-img-top" loading="lazy" src="imagens/sites/beg/beg-cliente.jpg" alt="Área de cliente B&G Soluções">
                                       <div class="card-body">
                                         <h5 class="card-title">CRM e área de cliente B&G</h5>
                                         <p>Sistema de acompanhamento de serviços</p>
@@ -111,7 +126,7 @@ $versao = filemtime(__DIR__ . '/css/styles.css') . filemtime(__DIR__ . '/js/scri
                                 </div>
                                 <div class="col-md-4 mb-4">
                                      <div class="card">
-                                      <img class="card-img-top" src="imagens/sites/beg/reg-cliente.jpg" alt="Área de cliente Regularize CNH">
+                                      <img class="card-img-top" loading="lazy" src="imagens/sites/beg/reg-cliente.jpg" alt="Área de cliente Regularize CNH">
                                       <div class="card-body">
                                         <h5 class="card-title">CRM e área de cliente Regularize CNH</h5>
                                         <p>Sistema de acompanhamento de serviços</p>
@@ -122,7 +137,7 @@ $versao = filemtime(__DIR__ . '/css/styles.css') . filemtime(__DIR__ . '/js/scri
                                 </div>
                                 <div class="col-md-4 mb-4">
                                      <div class="card">
-                                      <img class="card-img-top" src="imagens/sites/beg/van-cliente.jpg" alt="Área de cliente Vantage Consultoria">
+                                      <img class="card-img-top" loading="lazy" src="imagens/sites/beg/van-cliente.jpg" alt="Área de cliente Vantage Consultoria">
                                       <div class="card-body">
                                         <h5 class="card-title">CRM e área de cliente Vantage Consultoria</h5>
                                         <p>Sistema de acompanhamento de serviços</p>
@@ -133,7 +148,7 @@ $versao = filemtime(__DIR__ . '/css/styles.css') . filemtime(__DIR__ . '/js/scri
                                 </div>
                                 <div class="col-md-4 mb-4">
                                      <div class="card">
-                                      <img class="card-img-top" src="imagens/sites/beg/bom-cliente.jpg" alt="Área de cliente ObomAcordo.com">
+                                      <img class="card-img-top" loading="lazy" src="imagens/sites/beg/bom-cliente.jpg" alt="Área de cliente ObomAcordo.com">
                                       <div class="card-body">
                                         <h5 class="card-title">CRM e área de cliente ObomAcordo.com</h5>
                                         <p>Sistema de acompanhamento de serviços</p>
@@ -144,7 +159,7 @@ $versao = filemtime(__DIR__ . '/css/styles.css') . filemtime(__DIR__ . '/js/scri
                                 </div>
                                 <div class="col-md-4 mb-4">
                                      <div class="card">
-                                      <img class="card-img-top" src="imagens/sites/beg/beg-site.jpg" alt="Site institucional B&G Soluções">
+                                      <img class="card-img-top" loading="lazy" src="imagens/sites/beg/beg-site.jpg" alt="Site institucional B&G Soluções">
                                       <div class="card-body">
                                         <h5 class="card-title">B&G Soluções</h5>
                                         <p>Site institucional</p>
@@ -154,7 +169,7 @@ $versao = filemtime(__DIR__ . '/css/styles.css') . filemtime(__DIR__ . '/js/scri
                                 </div>
                                 <div class="col-md-4 mb-4">
                                      <div class="card">
-                                      <img class="card-img-top" src="imagens/sites/beg/beg-land-1.jpg" alt="B&G Soluções">
+                                      <img class="card-img-top" loading="lazy" src="imagens/sites/beg/beg-land-1.jpg" alt="B&G Soluções">
                                       <div class="card-body">
                                         <h5 class="card-title">B&G Soluções</h5>
                                         <p>A melhor negociação</p>
@@ -164,7 +179,7 @@ $versao = filemtime(__DIR__ . '/css/styles.css') . filemtime(__DIR__ . '/js/scri
                                 </div>
                                 <div class="col-md-4 mb-4">
                                      <div class="card">
-                                      <img class="card-img-top" src="imagens/sites/beg/beg-land-2.jpg" alt="B&G Soluções">
+                                      <img class="card-img-top" loading="lazy" src="imagens/sites/beg/beg-land-2.jpg" alt="B&G Soluções">
                                       <div class="card-body">
                                         <h5 class="card-title">B&G Soluções</h5>
                                         <p>A melhor negociação</p>
@@ -174,7 +189,7 @@ $versao = filemtime(__DIR__ . '/css/styles.css') . filemtime(__DIR__ . '/js/scri
                                 </div>
                                 <div class="col-md-4 mb-4">
                                      <div class="card">
-                                      <img class="card-img-top" src="imagens/sites/beg/beg-land-3.jpg" alt="B&G Soluções">
+                                      <img class="card-img-top" loading="lazy" src="imagens/sites/beg/beg-land-3.jpg" alt="B&G Soluções">
                                       <div class="card-body">
                                         <h5 class="card-title">B&G Soluções</h5>
                                         <p>A melhor negociação</p>
@@ -184,7 +199,7 @@ $versao = filemtime(__DIR__ . '/css/styles.css') . filemtime(__DIR__ . '/js/scri
                                 </div>
                                 <div class="col-md-4 mb-4">
                                      <div class="card">
-                                      <img class="card-img-top" src="imagens/sites/beg/top10.jpg" alt="Sistema Top 10 Chat">
+                                      <img class="card-img-top" loading="lazy" src="imagens/sites/beg/top10.jpg" alt="Sistema Top 10 Chat">
                                       <div class="card-body">
                                         <h5 class="card-title">Top 10 Chat</h5>
                                         <p>Qualificando o seu atendimento.</p>
@@ -194,7 +209,7 @@ $versao = filemtime(__DIR__ . '/css/styles.css') . filemtime(__DIR__ . '/js/scri
                                 </div>
                                 <div class="col-md-4 mb-4">
                                      <div class="card">
-                                      <img class="card-img-top" src="imagens/sites/DigConverse/login.jpg" alt="DigConverse: tela de login">
+                                      <img class="card-img-top" loading="lazy" src="imagens/sites/DigConverse/login.jpg" alt="DigConverse: tela de login">
                                       <div class="card-body">
                                         <h5 class="card-title">DigConverse</h5>
                                         <p>Qualificando o seu atendimento.</p>
@@ -204,7 +219,7 @@ $versao = filemtime(__DIR__ . '/css/styles.css') . filemtime(__DIR__ . '/js/scri
                                 </div>
                                 <div class="col-md-4 mb-4">
                                      <div class="card">
-                                      <img class="card-img-top" src="imagens/sites/DigConverse/home.jpg" alt="DigConverse: painel inicial">
+                                      <img class="card-img-top" loading="lazy" src="imagens/sites/DigConverse/home.jpg" alt="DigConverse: painel inicial">
                                       <div class="card-body">
                                         <h5 class="card-title">DigConverse</h5>
                                         <p>Painel inicial do atendimento.</p>
@@ -214,7 +229,7 @@ $versao = filemtime(__DIR__ . '/css/styles.css') . filemtime(__DIR__ . '/js/scri
                                 </div>
                                 <div class="col-md-4 mb-4">
                                      <div class="card">
-                                      <img class="card-img-top" src="imagens/sites/DigConverse/contatos.jpg" alt="DigConverse: gestão de contatos">
+                                      <img class="card-img-top" loading="lazy" src="imagens/sites/DigConverse/contatos.jpg" alt="DigConverse: gestão de contatos">
                                       <div class="card-body">
                                         <h5 class="card-title">DigConverse</h5>
                                         <p>Gestão de contatos.</p>
@@ -226,37 +241,37 @@ $versao = filemtime(__DIR__ . '/css/styles.css') . filemtime(__DIR__ . '/js/scri
                                 <h3>Outros Trabalhos</h3>
 
                                 <div class="col-md-4 mb-5">
-                                    <a href="https://appcomandacerta.com.br/" target="_blank" rel="noopener"><img src="imagens/sites/ComandaCerta/1.jpg" alt="Site Comanda Certa" class="img-fluid rounded border"><p>www.appcomandacerta.com.br/</p></a>
+                                    <a href="https://appcomandacerta.com.br/" target="_blank" rel="noopener"><img src="imagens/sites/ComandaCerta/1.jpg" alt="Site Comanda Certa" class="img-fluid rounded border" loading="lazy"><p>www.appcomandacerta.com.br/</p></a>
                                 </div>
                                 <div class="col-md-4 mb-5">
-                                    <a href="https://web.appcomandacerta.com.br/" target="_blank" rel="noopener"><img src="imagens/sites/ComandaCerta/web.jpg" alt="Comanda Certa: painel web" class="img-fluid rounded border"><p>Comanda Certa: painel web</p></a>
+                                    <a href="https://web.appcomandacerta.com.br/" target="_blank" rel="noopener"><img src="imagens/sites/ComandaCerta/web.jpg" alt="Comanda Certa: painel web" class="img-fluid rounded border" loading="lazy"><p>Comanda Certa: painel web</p></a>
                                 </div>
                                  <div class="col-md-4 mb-5">
-                                    <a href="https://loja.appcomandacerta.com.br/" target="_blank" rel="noopener"><img src="imagens/sites/ComandaCerta/loja.jpg" alt="Comanda Certa: loja" class="img-fluid rounded border"><p>Comanda Certa: loja</p></a>
+                                    <a href="https://loja.appcomandacerta.com.br/" target="_blank" rel="noopener"><img src="imagens/sites/ComandaCerta/loja.jpg" alt="Comanda Certa: loja" class="img-fluid rounded border" loading="lazy"><p>Comanda Certa: loja</p></a>
                                 </div>
                                 <div class="col-md-4 mb-5">
-                                    <a href="https://entregador.appcomandacerta.com.br/" target="_blank" rel="noopener"><img src="imagens/sites/ComandaCerta/entregador.jpg" alt="Comanda Certa: app do entregador" class="img-fluid rounded border"><p>Comanda Certa: entregador</p></a>
+                                    <a href="https://entregador.appcomandacerta.com.br/" target="_blank" rel="noopener"><img src="imagens/sites/ComandaCerta/entregador.jpg" alt="Comanda Certa: app do entregador" class="img-fluid rounded border" loading="lazy"><p>Comanda Certa: entregador</p></a>
                                 </div>
                                 <div class="col-md-4 mb-5">
-                                    <img src="imagens/sites/PagCondominio/4.jpg" alt="PagCondomínio" class="img-fluid rounded border"><p>www.pagcondominio.com</p>
+                                    <img src="imagens/sites/PagCondominio/4.jpg" alt="PagCondomínio" class="img-fluid rounded border" loading="lazy"><p>www.pagcondominio.com</p>
                                 </div>
                                 <div class="col-md-4 mb-5">
-                                    <a href="https://www.parceiromoura.com.br" target="_blank" rel="noopener"><img src="imagens/sites/Moura/1.jpg" alt="Parceiro Moura" class="img-fluid rounded border"><p>www.parceiromoura.com.br</p></a>
+                                    <a href="https://www.parceiromoura.com.br" target="_blank" rel="noopener"><img src="imagens/sites/Moura/1.jpg" alt="Parceiro Moura" class="img-fluid rounded border" loading="lazy"><p>www.parceiromoura.com.br</p></a>
                                 </div>
                                 <div class="col-md-4 mb-5">
-                                    <a href="https://www.parceiromoura.com.br" target="_blank" rel="noopener"><img src="imagens/sites/Moura/2.jpg" alt="Parceiro Moura" class="img-fluid rounded border"><p>www.parceiromoura.com.br</p></a>
+                                    <a href="https://www.parceiromoura.com.br" target="_blank" rel="noopener"><img src="imagens/sites/Moura/2.jpg" alt="Parceiro Moura" class="img-fluid rounded border" loading="lazy"><p>www.parceiromoura.com.br</p></a>
                                 </div>
                                 <div class="col-md-4 mb-5">
-                                    <a href="https://www.parceiromoura.com.br" target="_blank" rel="noopener"><img src="imagens/sites/Moura/3.jpg" alt="Parceiro Moura" class="img-fluid rounded border"><p>www.parceiromoura.com.br</p></a>
+                                    <a href="https://www.parceiromoura.com.br" target="_blank" rel="noopener"><img src="imagens/sites/Moura/3.jpg" alt="Parceiro Moura" class="img-fluid rounded border" loading="lazy"><p>www.parceiromoura.com.br</p></a>
                                 </div>
                                 <div class="col-md-4 mb-5">
-                                    <a href="https://www.rblesquadrias.com.br/" target="_blank" rel="noopener"><img src="imagens/sites/rblesquadrias/1.jpg" alt="RBL Esquadrias" class="img-fluid rounded border"><p>www.rblesquadrias.com.br</p></a>
+                                    <a href="https://www.rblesquadrias.com.br/" target="_blank" rel="noopener"><img src="imagens/sites/rblesquadrias/1.jpg" alt="RBL Esquadrias" class="img-fluid rounded border" loading="lazy"><p>www.rblesquadrias.com.br</p></a>
                                 </div> 
                                 <div class="col-md-4 mb-5">
-                                    <a href="https://www.rblesquadrias.com.br/" target="_blank" rel="noopener"><img src="imagens/sites/rblesquadrias/2.jpg" alt="RBL Esquadrias" class="img-fluid rounded border"><p>www.rblesquadrias.com.br</p></a>
+                                    <a href="https://www.rblesquadrias.com.br/" target="_blank" rel="noopener"><img src="imagens/sites/rblesquadrias/2.jpg" alt="RBL Esquadrias" class="img-fluid rounded border" loading="lazy"><p>www.rblesquadrias.com.br</p></a>
                                 </div> 
                                 <div class="col-md-4 mb-5">
-                                    <a href="https://www.linkedin.com/in/josearnaldolopes/" target="_blank" rel="noopener"><img src="imagens/linkedin.jpg" alt="Perfil no LinkedIn" class="img-fluid rounded border"><p>Veja todos meus trabalhos no Linkedin</p></a>
+                                    <a href="https://www.linkedin.com/in/josearnaldolopes/" target="_blank" rel="noopener"><img src="imagens/linkedin.jpg" alt="Perfil no LinkedIn" class="img-fluid rounded border" loading="lazy"><p>Veja todos meus trabalhos no Linkedin</p></a>
                                 </div>
                             </div>
                         </div>
@@ -394,7 +409,6 @@ $versao = filemtime(__DIR__ . '/css/styles.css') . filemtime(__DIR__ . '/js/scri
 
         <!-- Jquery -->
         <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
-        <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->

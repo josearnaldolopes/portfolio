@@ -30,8 +30,6 @@ window.addEventListener('DOMContentLoaded', event => {
 
 $(document).ready(function(){
 
-  $(".cloud").sortable();
-
   const elements = $('.cloud a').length;
   for (let i = 0; i < elements; i++) {
       var opcoes = ["-",""];
@@ -39,6 +37,13 @@ $(document).ready(function(){
       const symbol = opcoes[Math.random() < 0.5 ? 0 : 1];
       const grau = Math.floor(Math.random() * 8) + 1;
       $(".cloud a").eq(i).css("rotate", ""+symbol+""+grau+"deg");
+  }
+
+  // Substitui o antigo .effect("shake") do jQuery UI (removido pra não carregar a lib inteira).
+  function sacudirFormulario() {
+    $(".formContato").removeClass("shake-anim");
+    void document.querySelector(".formContato").offsetWidth; // força reiniciar a animação
+    $(".formContato").addClass("shake-anim");
   }
 
   function statusContato(texto, sucesso) {
@@ -124,7 +129,7 @@ $(document).ready(function(){
     });
     if (primeiroInvalido) {
       primeiroInvalido.focus();
-      $(".formContato").effect("shake");
+      sacudirFormulario();
       return;
     }
 
@@ -140,7 +145,7 @@ $(document).ready(function(){
       .fail(function(xhr) {
         const erro = xhr.responseJSON && xhr.responseJSON.erro;
         statusContato(erro || "Não foi possível enviar agora. Tente pelo e-mail ou telefone ao lado.", false);
-        $(".formContato").effect("shake");
+        sacudirFormulario();
       })
       .always(function() {
         botao.prop("disabled", false).val("_enviar");
