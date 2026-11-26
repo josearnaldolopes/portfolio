@@ -119,6 +119,14 @@ $versao = filemtime(__DIR__ . '/css/styles.css') . filemtime(__DIR__ . '/js/scri
                               <div class="card-body">
                                 <h5 class="card-title">GPAN CRM</h5>
                                 <p class="card-text">Plataforma multi-tenant de gestão comercial e jurídica usada por quatro marcas do grupo — da captação do lead ao fechamento, passando pela conferência de pagamentos e o módulo jurídico satélite.</p>
+                                <div class="d-flex flex-wrap gap-2 mb-3">
+                                  <span class="badge bg-dark rounded-pill badge-tech">PHP 8</span>
+                                  <span class="badge bg-dark rounded-pill badge-tech">MySQL</span>
+                                  <span class="badge bg-dark rounded-pill badge-tech">JavaScript</span>
+                                  <span class="badge bg-dark rounded-pill badge-tech">Docker + Nginx</span>
+                                  <span class="badge bg-dark rounded-pill badge-tech">Service Workers</span>
+                                  <span class="badge bg-dark rounded-pill badge-tech">Multi-tenant</span>
+                                </div>
                                 <a href="https://crm.gpansolucoes.com.br/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o CRM</a>
                               </div>
                             </div>
