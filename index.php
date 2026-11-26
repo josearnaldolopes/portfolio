@@ -339,6 +339,7 @@ $versao = filemtime(__DIR__ . '/css/styles.css') . filemtime(__DIR__ . '/js/scri
                           <li><a href="javascript:void(0)" data-weight="3">SQL</a></li>
                           <li><a href="javascript:void(0)" data-weight="3">PHPMyAdmin</a></li>
                           <li><a href="javascript:void(0)" data-weight="10">MySQL</a></li>
+                          <li><a href="javascript:void(0)" data-weight="5">PostgreSQL</a></li>
                           <li><a href="javascript:void(0)" data-weight="5">Scrum</a></li>
                           <li><a href="javascript:void(0)" data-weight="3">WordPress</a></li>
                           <li><a href="javascript:void(0)" data-weight="3">GIT</a></li>
