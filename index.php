@@ -125,45 +125,71 @@ $versao = filemtime(__DIR__ . '/css/styles.css') . filemtime(__DIR__ . '/js/scri
                                 </div>
                                 <div class="col-md-4 mb-4">
                                      <div class="card">
-                                      <img class="card-img-top" loading="lazy" src="imagens/sites/beg/beg-cliente.jpg" alt="Área de cliente B&G Soluções">
+                                      <img class="card-img-top" loading="lazy" src="imagens/sites/GPAN/crm-login.jpg" alt="Tela de login do CRM GPAN Soluções">
                                       <div class="card-body">
-                                        <h5 class="card-title">CRM e área de cliente B&G</h5>
-                                        <p>Sistema de acompanhamento de serviços</p>
-                                        <a href="https://cliente.begsolucoes.com.br/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja área de cliente</a>
-                                        <a href="https://crm.begsolucoes.com.br/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o CRM</a>
+                                        <h5 class="card-title">CRM GPAN Soluções</h5>
+                                        <p>Sistema de gestão de leads e atendimento</p>
+                                        <a href="https://crm.gpansolucoes.com.br/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o CRM</a>
                                       </div>
                                     </div>
                                 </div>
                                 <div class="col-md-4 mb-4">
                                      <div class="card">
-                                      <img class="card-img-top" loading="lazy" src="imagens/sites/beg/reg-cliente.jpg" alt="Área de cliente Regularize CNH">
+                                      <img class="card-img-top" loading="lazy" src="imagens/sites/BRC/site.jpg" alt="Site institucional BRC Soluções">
                                       <div class="card-body">
-                                        <h5 class="card-title">CRM e área de cliente Regularize CNH</h5>
-                                        <p>Sistema de acompanhamento de serviços</p>
-                                        <a href="https://cliente.regularizecnh.com.br/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja área de cliente</a>
-                                        <a href="https://crm.regularizecnh.com.br/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o CRM</a>
+                                        <h5 class="card-title">BRC Soluções</h5>
+                                        <p>Site institucional</p>
+                                        <a href="https://brcsolucoes.com.br/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o site</a>
                                       </div>
                                     </div>
                                 </div>
                                 <div class="col-md-4 mb-4">
                                      <div class="card">
-                                      <img class="card-img-top" loading="lazy" src="imagens/sites/beg/van-cliente.jpg" alt="Área de cliente Vantage Consultoria">
+                                      <img class="card-img-top" loading="lazy" src="imagens/sites/beg/simulador.jpg" alt="Simulador de juros B&G Soluções">
                                       <div class="card-body">
-                                        <h5 class="card-title">CRM e área de cliente Vantage Consultoria</h5>
-                                        <p>Sistema de acompanhamento de serviços</p>
-                                        <a href="https://cliente.vantageconsultoria.com.br/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja área de cliente</a>
-                                        <a href="https://crm.vantageconsultoria.com.br/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o CRM</a>
+                                        <h5 class="card-title">B&G Soluções</h5>
+                                        <p>Simulador de juros abusivos</p>
+                                        <a href="https://begsolucoes.com.br/simulador/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o simulador</a>
                                       </div>
                                     </div>
                                 </div>
                                 <div class="col-md-4 mb-4">
                                      <div class="card">
-                                      <img class="card-img-top" loading="lazy" src="imagens/sites/beg/bom-cliente.jpg" alt="Área de cliente ObomAcordo.com">
+                                      <img class="card-img-top" loading="lazy" src="imagens/sites/beg/oba-site.jpg" alt="Site institucional O Bom Acordo">
                                       <div class="card-body">
-                                        <h5 class="card-title">CRM e área de cliente ObomAcordo.com</h5>
-                                        <p>Sistema de acompanhamento de serviços</p>
-                                        <a href="https://cliente.obomacordo.com/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja área de cliente</a>
-                                        <a href="https://crm.obomacordo.com/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o CRM</a>
+                                        <h5 class="card-title">O Bom Acordo</h5>
+                                        <p>Site institucional</p>
+                                        <a href="https://obomacordo.com/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o site</a>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                     <div class="card">
+                                      <img class="card-img-top" loading="lazy" src="imagens/sites/beg/oba-simulador.jpg" alt="Simulador de juros O Bom Acordo">
+                                      <div class="card-body">
+                                        <h5 class="card-title">O Bom Acordo</h5>
+                                        <p>Simulador de juros abusivos</p>
+                                        <a href="https://obomacordo.com/simulador/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o simulador</a>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                     <div class="card">
+                                      <img class="card-img-top" loading="lazy" src="imagens/sites/beg/van-site.jpg" alt="Site institucional Vantage Consultoria">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Vantage Consultoria</h5>
+                                        <p>Site institucional</p>
+                                        <a href="https://vantageconsultoria.com.br/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o site</a>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                     <div class="card">
+                                      <img class="card-img-top" loading="lazy" src="imagens/sites/beg/van-simulador.jpg" alt="Simulador de juros Vantage Consultoria">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Vantage Consultoria</h5>
+                                        <p>Simulador de juros abusivos</p>
+                                        <a href="https://vantageconsultoria.com.br/simulador/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o simulador</a>
                                       </div>
                                     </div>
                                 </div>
@@ -247,68 +273,52 @@ $versao = filemtime(__DIR__ . '/css/styles.css') . filemtime(__DIR__ . '/js/scri
                                       </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 mb-4">
-                                     <div class="card">
-                                      <img class="card-img-top" loading="lazy" src="imagens/sites/BRC/site.jpg" alt="Site institucional BRC Soluções">
-                                      <div class="card-body">
-                                        <h5 class="card-title">BRC Soluções</h5>
-                                        <p>Site institucional</p>
-                                        <a href="https://brcsolucoes.com.br/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o site</a>
-                                      </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-4">
-                                     <div class="card">
-                                      <img class="card-img-top" loading="lazy" src="imagens/sites/beg/simulador.jpg" alt="Simulador de juros B&G Soluções">
-                                      <div class="card-body">
-                                        <h5 class="card-title">B&G Soluções</h5>
-                                        <p>Simulador de juros abusivos</p>
-                                        <a href="https://begsolucoes.com.br/simulador/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o simulador</a>
-                                      </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-4">
-                                     <div class="card">
-                                      <img class="card-img-top" loading="lazy" src="imagens/sites/beg/oba-site.jpg" alt="Site institucional O Bom Acordo">
-                                      <div class="card-body">
-                                        <h5 class="card-title">O Bom Acordo</h5>
-                                        <p>Site institucional</p>
-                                        <a href="https://obomacordo.com/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o site</a>
-                                      </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-4">
-                                     <div class="card">
-                                      <img class="card-img-top" loading="lazy" src="imagens/sites/beg/oba-simulador.jpg" alt="Simulador de juros O Bom Acordo">
-                                      <div class="card-body">
-                                        <h5 class="card-title">O Bom Acordo</h5>
-                                        <p>Simulador de juros abusivos</p>
-                                        <a href="https://obomacordo.com/simulador/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o simulador</a>
-                                      </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-4">
-                                     <div class="card">
-                                      <img class="card-img-top" loading="lazy" src="imagens/sites/beg/van-site.jpg" alt="Site institucional Vantage Consultoria">
-                                      <div class="card-body">
-                                        <h5 class="card-title">Vantage Consultoria</h5>
-                                        <p>Site institucional</p>
-                                        <a href="https://vantageconsultoria.com.br/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o site</a>
-                                      </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-4">
-                                     <div class="card">
-                                      <img class="card-img-top" loading="lazy" src="imagens/sites/beg/van-simulador.jpg" alt="Simulador de juros Vantage Consultoria">
-                                      <div class="card-body">
-                                        <h5 class="card-title">Vantage Consultoria</h5>
-                                        <p>Simulador de juros abusivos</p>
-                                        <a href="https://vantageconsultoria.com.br/simulador/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o simulador</a>
-                                      </div>
-                                    </div>
-                                </div>
-
                                 <h3>Outros Trabalhos</h3>
+
+                                <div class="col-md-4 mb-4">
+                                     <div class="card">
+                                      <img class="card-img-top" loading="lazy" src="imagens/sites/beg/beg-cliente.jpg" alt="Área de cliente B&G Soluções">
+                                      <div class="card-body">
+                                        <h5 class="card-title">CRM e área de cliente B&G</h5>
+                                        <p>Sistema de acompanhamento de serviços</p>
+                                        <a href="https://cliente.begsolucoes.com.br/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja área de cliente</a>
+                                        <a href="https://crm.begsolucoes.com.br/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o CRM</a>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                     <div class="card">
+                                      <img class="card-img-top" loading="lazy" src="imagens/sites/beg/reg-cliente.jpg" alt="Área de cliente Regularize CNH">
+                                      <div class="card-body">
+                                        <h5 class="card-title">CRM e área de cliente Regularize CNH</h5>
+                                        <p>Sistema de acompanhamento de serviços</p>
+                                        <a href="https://cliente.regularizecnh.com.br/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja área de cliente</a>
+                                        <a href="https://crm.regularizecnh.com.br/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o CRM</a>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                     <div class="card">
+                                      <img class="card-img-top" loading="lazy" src="imagens/sites/beg/van-cliente.jpg" alt="Área de cliente Vantage Consultoria">
+                                      <div class="card-body">
+                                        <h5 class="card-title">CRM e área de cliente Vantage Consultoria</h5>
+                                        <p>Sistema de acompanhamento de serviços</p>
+                                        <a href="https://cliente.vantageconsultoria.com.br/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja área de cliente</a>
+                                        <a href="https://crm.vantageconsultoria.com.br/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o CRM</a>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                     <div class="card">
+                                      <img class="card-img-top" loading="lazy" src="imagens/sites/beg/bom-cliente.jpg" alt="Área de cliente ObomAcordo.com">
+                                      <div class="card-body">
+                                        <h5 class="card-title">CRM e área de cliente ObomAcordo.com</h5>
+                                        <p>Sistema de acompanhamento de serviços</p>
+                                        <a href="https://cliente.obomacordo.com/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja área de cliente</a>
+                                        <a href="https://crm.obomacordo.com/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o CRM</a>
+                                      </div>
+                                    </div>
+                                </div>
 
                                 <div class="col-md-4 mb-5">
                                     <a href="https://appcomandacerta.com.br/" target="_blank" rel="noopener"><img src="imagens/sites/ComandaCerta/1.jpg" alt="Site Comanda Certa" class="img-fluid rounded border" loading="lazy"><p>www.appcomandacerta.com.br/</p></a>
