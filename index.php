@@ -247,6 +247,66 @@ $versao = filemtime(__DIR__ . '/css/styles.css') . filemtime(__DIR__ . '/js/scri
                                       </div>
                                     </div>
                                 </div>
+                                <div class="col-md-4 mb-4">
+                                     <div class="card">
+                                      <img class="card-img-top" loading="lazy" src="imagens/sites/BRC/site.jpg" alt="Site institucional BRC Soluções">
+                                      <div class="card-body">
+                                        <h5 class="card-title">BRC Soluções</h5>
+                                        <p>Site institucional</p>
+                                        <a href="https://brcsolucoes.com.br/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o site</a>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                     <div class="card">
+                                      <img class="card-img-top" loading="lazy" src="imagens/sites/beg/simulador.jpg" alt="Simulador de juros B&G Soluções">
+                                      <div class="card-body">
+                                        <h5 class="card-title">B&G Soluções</h5>
+                                        <p>Simulador de juros abusivos</p>
+                                        <a href="https://begsolucoes.com.br/simulador/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o simulador</a>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                     <div class="card">
+                                      <img class="card-img-top" loading="lazy" src="imagens/sites/beg/oba-site.jpg" alt="Site institucional O Bom Acordo">
+                                      <div class="card-body">
+                                        <h5 class="card-title">O Bom Acordo</h5>
+                                        <p>Site institucional</p>
+                                        <a href="https://obomacordo.com/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o site</a>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                     <div class="card">
+                                      <img class="card-img-top" loading="lazy" src="imagens/sites/beg/oba-simulador.jpg" alt="Simulador de juros O Bom Acordo">
+                                      <div class="card-body">
+                                        <h5 class="card-title">O Bom Acordo</h5>
+                                        <p>Simulador de juros abusivos</p>
+                                        <a href="https://obomacordo.com/simulador/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o simulador</a>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                     <div class="card">
+                                      <img class="card-img-top" loading="lazy" src="imagens/sites/beg/van-site.jpg" alt="Site institucional Vantage Consultoria">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Vantage Consultoria</h5>
+                                        <p>Site institucional</p>
+                                        <a href="https://vantageconsultoria.com.br/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o site</a>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                     <div class="card">
+                                      <img class="card-img-top" loading="lazy" src="imagens/sites/beg/van-simulador.jpg" alt="Simulador de juros Vantage Consultoria">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Vantage Consultoria</h5>
+                                        <p>Simulador de juros abusivos</p>
+                                        <a href="https://vantageconsultoria.com.br/simulador/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o simulador</a>
+                                      </div>
+                                    </div>
+                                </div>
 
                                 <h3>Outros Trabalhos</h3>
 
