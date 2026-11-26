@@ -115,6 +115,16 @@ $versao = filemtime(__DIR__ . '/css/styles.css') . filemtime(__DIR__ . '/js/scri
                             <div class="row">
                                 <div class="col-md-4 mb-4">
                                      <div class="card">
+                                      <img class="card-img-top" loading="lazy" src="imagens/sites/GomesFerreira/site.jpg" alt="Site institucional Gomes Ferreira Construção">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Gomes Ferreira Construção</h5>
+                                        <p>Site institucional, depósito de materiais de construção</p>
+                                        <a href="https://gomesferreiraconstrucao.com.br/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o site</a>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                     <div class="card">
                                       <img class="card-img-top" loading="lazy" src="imagens/sites/beg/beg-cliente.jpg" alt="Área de cliente B&G Soluções">
                                       <div class="card-body">
                                         <h5 class="card-title">CRM e área de cliente B&G</h5>
