@@ -30,6 +30,17 @@ window.addEventListener('DOMContentLoaded', event => {
 
 $(document).ready(function(){
 
+  // Embaralha a ordem dos termos na nuvem a cada carregamento da página.
+  const nuvem = document.querySelector(".cloud");
+  if (nuvem) {
+    const itens = Array.from(nuvem.children);
+    for (let i = itens.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [itens[i], itens[j]] = [itens[j], itens[i]];
+    }
+    itens.forEach(function(item) { nuvem.appendChild(item); });
+  }
+
   $(".cloud a").each(function() {
       // Rotação aleatória (como já era).
       const sinal = Math.random() < 0.5 ? "-" : "";
