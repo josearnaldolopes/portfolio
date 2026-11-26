@@ -362,6 +362,7 @@ $versao = filemtime(__DIR__ . '/css/styles.css') . filemtime(__DIR__ . '/js/scri
                           <li><a href="javascript:void(0)" data-weight="4">VPS</a></li>
                           <li><a href="javascript:void(0)" data-weight="4">AWS</a></li>
                           <li><a href="javascript:void(0)" data-weight="4">Hostinger</a></li>
+                          <li><a href="javascript:void(0)" data-weight="7">Inteligência Artificial</a></li>
                           <li><a href="javascript:void(0)" data-weight="7">Claude</a></li>
                         </ul>
 
