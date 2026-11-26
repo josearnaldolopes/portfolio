@@ -30,14 +30,19 @@ window.addEventListener('DOMContentLoaded', event => {
 
 $(document).ready(function(){
 
-  const elements = $('.cloud a').length;
-  for (let i = 0; i < elements; i++) {
-      var opcoes = ["-",""];
-      // console.log(opcoes[Math.random() < 0.5 ? 0 : 1]);
-      const symbol = opcoes[Math.random() < 0.5 ? 0 : 1];
+  $(".cloud a").each(function() {
+      // Rotação aleatória (como já era).
+      const sinal = Math.random() < 0.5 ? "-" : "";
       const grau = Math.floor(Math.random() * 8) + 1;
-      $(".cloud a").eq(i).css("rotate", ""+symbol+""+grau+"deg");
-  }
+      this.style.rotate = sinal + grau + "deg";
+
+      // Tamanho: varia um pouco (±20%) em cima do peso de cada termo (data-weight),
+      // pra nuvem não ficar com a cara idêntica toda vez que a página recarrega,
+      // mas sem perder a hierarquia (quem é "grande" continua tendendo a grande).
+      const tamanhoBase = parseFloat(getComputedStyle(this).getPropertyValue('--size')) || 4;
+      const variacao = tamanhoBase * (0.8 + Math.random() * 0.4);
+      this.style.setProperty('--size', variacao.toFixed(2));
+  });
 
   // Substitui o antigo .effect("shake") do jQuery UI (removido pra não carregar a lib inteira).
   function sacudirFormulario() {
