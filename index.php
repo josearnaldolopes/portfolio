@@ -110,6 +110,21 @@ $versao = filemtime(__DIR__ . '/css/styles.css') . filemtime(__DIR__ . '/js/scri
                         <p class="lead"><b>HTML</b> + <b>CSS</b> + <b>JavaScript</b> + <b>PHP</b> e <b>MySQL</b></p>
                         <p class="lead">Veja todos os trabalhos no <a href="https://www.josearnaldo.net/linkedin" target="_blank">Linkedin</a>.</p>
 
+                        <div class="card mb-4 shadow-sm">
+                          <div class="row g-0">
+                            <div class="col-md-4">
+                              <img src="imagens/sites/GPAN/crm-login.jpg" class="img-fluid rounded-start h-100" style="object-fit: cover;" alt="Tela de login do CRM GPAN Soluções" loading="lazy">
+                            </div>
+                            <div class="col-md-8">
+                              <div class="card-body">
+                                <h5 class="card-title">GPAN CRM</h5>
+                                <p class="card-text">Plataforma multi-tenant de gestão comercial e jurídica usada por quatro marcas do grupo — da captação do lead ao fechamento, passando pela conferência de pagamentos e o módulo jurídico satélite.</p>
+                                <a href="https://crm.gpansolucoes.com.br/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o CRM</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
                         <div class="container mt-5">
                             <h2 class="mb-4">Últimos trabalhos</h2>
                             <div class="row">
@@ -120,16 +135,6 @@ $versao = filemtime(__DIR__ . '/css/styles.css') . filemtime(__DIR__ . '/js/scri
                                         <h5 class="card-title">Gomes Ferreira Construção</h5>
                                         <p>Site institucional, depósito de materiais de construção</p>
                                         <a href="https://gomesferreiraconstrucao.com.br/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o site</a>
-                                      </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 mb-4">
-                                     <div class="card">
-                                      <img class="card-img-top" loading="lazy" src="imagens/sites/GPAN/crm-login.jpg" alt="Tela de login do CRM GPAN Soluções">
-                                      <div class="card-body">
-                                        <h5 class="card-title">CRM GPAN Soluções</h5>
-                                        <p>Sistema de gestão de leads e atendimento</p>
-                                        <a href="https://crm.gpansolucoes.com.br/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o CRM</a>
                                       </div>
                                     </div>
                                 </div>
