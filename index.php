@@ -129,7 +129,8 @@ $versao = filemtime(__DIR__ . '/css/styles.css') . filemtime(__DIR__ . '/js/scri
                                   <span class="badge bg-dark rounded-pill badge-tech">Service Workers</span>
                                   <span class="badge bg-dark rounded-pill badge-tech">Multi-tenant</span>
                                 </div>
-                                <a href="https://crm.gpansolucoes.com.br/" target="_blank" rel="noopener" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o CRM</a>
+                                <a href="gpan-crm.php" class="btn btn-primary btn-sm"><i class="fa-solid fa-file-lines"></i> Veja o case completo</a>
+                                <a href="https://crm.gpansolucoes.com.br/" target="_blank" rel="noopener" class="btn btn-outline-secondary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o CRM</a>
                               </div>
                             </div>
                           </div>
