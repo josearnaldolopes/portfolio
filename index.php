@@ -110,6 +110,8 @@ $versao = filemtime(__DIR__ . '/css/styles.css') . filemtime(__DIR__ . '/js/scri
                         <p class="lead"><b>HTML</b> + <b>CSS</b> + <b>JavaScript</b> + <b>PHP</b> e <b>MySQL</b></p>
                         <p class="lead">Veja todos os trabalhos no <a href="https://www.josearnaldo.net/linkedin" target="_blank">Linkedin</a>.</p>
 
+                        <h2 class="mb-4">Últimos trabalhos</h2>
+
                         <div class="card mb-4 shadow-sm">
                           <div class="row g-0">
                             <div class="col-md-4">
@@ -134,7 +136,6 @@ $versao = filemtime(__DIR__ . '/css/styles.css') . filemtime(__DIR__ . '/js/scri
                         </div>
 
                         <div class="container mt-5">
-                            <h2 class="mb-4">Últimos trabalhos</h2>
                             <div class="row">
                                 <div class="col-md-4 mb-4">
                                      <div class="card">
