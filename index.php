@@ -349,6 +349,19 @@ $versao = filemtime(__DIR__ . '/css/styles.css') . filemtime(__DIR__ . '/js/scri
                           <li><a href="javascript:void(0)" data-weight="4">Orientação a Objetos</a></li>
                           <li><a href="javascript:void(0)" data-weight="6">Clean Code</a></li>
                           <li><a href="javascript:void(0)" data-weight="6">MVC</a></li>
+                          <li><a href="javascript:void(0)" data-weight="7">CRM</a></li>
+                          <li><a href="javascript:void(0)" data-weight="5">Integração de APIs</a></li>
+                          <li><a href="javascript:void(0)" data-weight="6">Automação</a></li>
+                          <li><a href="javascript:void(0)" data-weight="4">n8n</a></li>
+                          <li><a href="javascript:void(0)" data-weight="5">WhatsApp API</a></li>
+                          <li><a href="javascript:void(0)" data-weight="4">Elementor</a></li>
+                          <li><a href="javascript:void(0)" data-weight="4">Docker</a></li>
+                          <li><a href="javascript:void(0)" data-weight="6">Linux</a></li>
+                          <li><a href="javascript:void(0)" data-weight="4">Debian</a></li>
+                          <li><a href="javascript:void(0)" data-weight="4">VPS</a></li>
+                          <li><a href="javascript:void(0)" data-weight="4">AWS</a></li>
+                          <li><a href="javascript:void(0)" data-weight="4">Hostinger</a></li>
+                          <li><a href="javascript:void(0)" data-weight="7">Claude</a></li>
                         </ul>
 
                     </div>
