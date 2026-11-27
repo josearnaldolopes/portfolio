@@ -114,10 +114,10 @@ $versao = filemtime(__DIR__ . '/css/styles.css') . filemtime(__DIR__ . '/js/scri
 
                         <div class="card mb-4 shadow-sm">
                           <div class="row g-0">
-                            <div class="col-md-4">
+                            <div class="col-md-5">
                               <img src="imagens/sites/GPAN/crm-login.jpg" class="img-fluid rounded-start h-100" style="object-fit: cover;" alt="Tela de login do CRM GPAN Soluções" loading="lazy">
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-7">
                               <div class="card-body">
                                 <h5 class="card-title">GPAN CRM</h5>
                                 <p class="card-text">Plataforma multi-tenant de gestão comercial e jurídica usada por quatro marcas do grupo — da captação do lead ao fechamento, passando pela conferência de pagamentos e o módulo jurídico satélite.</p>
