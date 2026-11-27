@@ -129,6 +129,33 @@ $versao = filemtime(__DIR__ . '/css/styles.css') . filemtime(__DIR__ . '/js/scri
                                   <span class="badge bg-dark rounded-pill badge-tech">Service Workers</span>
                                   <span class="badge bg-dark rounded-pill badge-tech">Multi-tenant</span>
                                 </div>
+                                <h6 class="text-uppercase small fw-bold mb-2">Stack técnica</h6>
+                                <div class="row g-2 mb-3">
+                                  <div class="col-md-3 col-6">
+                                    <div class="card h-100"><div class="card-body p-2">
+                                      <div class="text-primary fw-bold small text-uppercase mb-1">Backend</div>
+                                      <div class="small text-muted">PHP 8 · arquitetura multi-tenant · APIs REST internas</div>
+                                    </div></div>
+                                  </div>
+                                  <div class="col-md-3 col-6">
+                                    <div class="card h-100"><div class="card-body p-2">
+                                      <div class="text-primary fw-bold small text-uppercase mb-1">Dados</div>
+                                      <div class="small text-muted">MySQL · migrations idempotentes por tenant</div>
+                                    </div></div>
+                                  </div>
+                                  <div class="col-md-3 col-6">
+                                    <div class="card h-100"><div class="card-body p-2">
+                                      <div class="text-primary fw-bold small text-uppercase mb-1">Frontend</div>
+                                      <div class="small text-muted">JavaScript vanilla · Tailwind CSS · Service Workers / PWA</div>
+                                    </div></div>
+                                  </div>
+                                  <div class="col-md-3 col-6">
+                                    <div class="card h-100"><div class="card-body p-2">
+                                      <div class="text-primary fw-bold small text-uppercase mb-1">Infraestrutura</div>
+                                      <div class="small text-muted">Docker · Nginx · VPS própria · Git</div>
+                                    </div></div>
+                                  </div>
+                                </div>
                                 <a href="gpan-crm.php" class="btn btn-primary btn-sm"><i class="fa-solid fa-file-lines"></i> Veja o case completo</a>
                                 <a href="https://crm.gpansolucoes.com.br/" target="_blank" rel="noopener" class="btn btn-outline-secondary btn-sm"><i class="fa-solid fa-arrow-up-from-bracket"></i> Veja o CRM</a>
                               </div>
